@@ -60,7 +60,7 @@ header{
     
 }
  
-@media (min-width:393px){
+@media (max-width:393px){
     .presentacion {
         display: flex;
         flex-direction: column;
