@@ -62,29 +62,3 @@ header{
    
     
 }
-@media (max-width: 393px){
-    .presentacion{
-        display: flex;
-        flex-direction: column;
-        height: 200vh;
-    }
-    .presentacion img {
-        height: 100vh;
-        width: 190vw;
-        display: flex;
-       position: absolute;
-       left: -130px;
-       padding: 0;
-       margin: 0;
-       border: 0;
-    }
-    .textoPresentacion{
-        height: 90vh;
-        font-size: 130%;
-        width: 100vw;
-        display: flex;
-        
-    }
-
-}
- 
