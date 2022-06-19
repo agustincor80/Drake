@@ -19,15 +19,16 @@ header{
    
     margin: 0;
 }
-
 .presentacion {
-    background: url(./fondo1.jpg);
+    display: flex;
+    flex-direction: row;
     height: 90vh;
     width: 100vw;
+    background: url(./patern.png);
+}
+.presentacion img {
     display: flex;
-    align-items: center;
-    background-repeat: no-repeat;
-    
+    justify-content: flex-end;
 
 }
 .textoPresentacion {
@@ -36,6 +37,8 @@ header{
     font-size: 250%;
     margin-left: 5%;
     text-align: center;
+    justify-content: center;
+    margin-top: 8%;
     
 }
 
@@ -60,21 +63,3 @@ header{
     
 }
  
-@media (max-width:393px){
-    .presentacion {
-        display: flex;
-        flex-direction: column;
-        height: 200vh;
-    }
-    header {
-        width: 100vw;
-        
-    }
-    .textoPresentacion {
-        font-size: 130%;
-        text-align: center;
-        width: 80%;
-
-    }
-
-}
