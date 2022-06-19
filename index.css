@@ -1,0 +1,61 @@
+@font-face {
+    font-family: renogare;
+    src: url(./Renogare-Regular.otf);
+}
+
+header{
+    background: url(./patern.png); 
+    color: white;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+*{
+    padding: 0;
+    font-family: "renogare";
+   
+    margin: 0;
+}
+
+.presentacion {
+    background: url(./fondo1.jpg);
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    
+
+}
+.textoPresentacion {
+    color: white;
+    width: 50%;
+    font-size: 250%;
+    margin-left: 5%;
+    text-align: center;
+    
+}
+
+.album {
+    display: flex;
+    flex-direction: column;
+    background: url(./patern.png);
+    height: 100vh;
+    width: 100vw;
+    
+    
+}
+.album img {
+    
+    height: 33.33vh;
+}
+
+.album div {
+    display: flex;
+    justify-content: end;
+   
+    
+}
