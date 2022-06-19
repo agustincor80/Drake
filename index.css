@@ -21,7 +21,7 @@ header{
 }
 .presentacion {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     height: 90vh;
     width: 100vw;
     background: url(./patern.png);
@@ -61,5 +61,26 @@ header{
     justify-content: end;
    
     
+}
+@media (max-width: 393px){
+    .presentacion{
+        display: flex;
+        flex-direction: column;
+        height: 200vh;
+    }
+    .presentacion img {
+        height: 100vh;
+        width: 170vw;
+        display: flex;
+        
+    }
+    .textoPresentacion{
+        height: 90vh;
+        font-size: 130%;
+        width: 100vw;
+        display: flex;
+        
+    }
+
 }
  
