@@ -116,6 +116,9 @@ header{
        border-left: 0%;
        
    }
+   .textopadre {
+       display: none;
+   }
 
     
     }
