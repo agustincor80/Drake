@@ -65,7 +65,7 @@ header{
     
 }
 
-@media (max-width: 390px) {
+@media (max-width: 500px) {
     .presentacion {
         display: flex;
         flex-direction:column;
@@ -75,11 +75,11 @@ header{
         height: 90vh;
     }
     .textoPresentacion {
-        font-size: 160%;
+        font-size: 180%;
         width: 80%;
         height: 80%;
         text-align: center;
-        padding-top: 4%;
+        padding-top: 15%;
         padding-left: 4%;
        
     }
