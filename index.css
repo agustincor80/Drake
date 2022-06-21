@@ -128,5 +128,11 @@ header{
 
     
     }
+    @media (max-width: 488px) {
+    .album div img {
+        width: 153px;
+    }
+    }
+     
    
 
