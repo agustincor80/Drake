@@ -46,7 +46,7 @@ header{
 
 .album {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background: url(./patern.png);
     height: 100vh;
     width: 100vw;
@@ -55,14 +55,29 @@ header{
 }
 .album img {
     
-    height: 33.33vh;
+    height: 300px;
+    padding: 0;
+    border-radius: 10px;
 }
-
-.album div {
+.galeria {
     display: flex;
-    justify-content: end;
+    width: 50vw;
+    padding: 0;
    
     
+}
+.textopadre {
+    width: 50vw;
+}
+
+.textoalbum {
+    color: white;
+    width: 40vw;
+    font-size: 250%;
+ text-align: center;
+    justify-content: center;
+    margin-top: 8%;
+    padding-left: 8%;
 }
 
 @media (max-width: 500px) {
