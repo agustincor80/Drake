@@ -138,6 +138,13 @@ header{
             width: 146px;
         }
     }
+    @media (max-width: 446px) {
+        .album div img {
+            width: 145px;
+            
+        }
+    }
+    
     
      
    
