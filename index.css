@@ -61,6 +61,7 @@ header{
 }
 .galeria {
     display: flex;
+    flex-wrap: wrap;
     width: 50vw;
     padding: 0;
    
@@ -110,7 +111,7 @@ header{
        width: 100vw;
    }
    .album div img {
-       width: 170px;
+       width: 160px;
        height: 160px ;
        border-left-style: solid;
        border-left: 0%;
@@ -118,6 +119,11 @@ header{
    }
    .textopadre {
        display: none;
+   }
+   .galeria {
+       display: flex;
+       width: 100vw;
+       height: 100vh;
    }
 
     
