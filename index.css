@@ -82,8 +82,6 @@ header{
 }
 
 @media (max-width: 500px) {
-    
-    }
     .presentacion {
         display: flex;
         flex-direction:column;
@@ -119,4 +117,7 @@ header{
        
    }
 
-}
+    
+    }
+   
+
